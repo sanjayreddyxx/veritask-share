@@ -1,0 +1,1127 @@
+[
+  {
+    "id": 1,
+    "title": "Navigate to Login Screen and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/login -> wait for main elements",
+    "expected": "Login Screen loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 2,
+    "title": "Login Screen responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/login at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 3,
+    "title": "Login Screen responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/login at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 4,
+    "title": "Login Screen responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/login at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 5,
+    "title": "Navigate to Signup Screen and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/signup -> wait for main elements",
+    "expected": "Signup Screen loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 6,
+    "title": "Signup Screen responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/signup at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 7,
+    "title": "Signup Screen responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/signup at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 8,
+    "title": "Signup Screen responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/signup at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 9,
+    "title": "Navigate to Dashboard and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard -> wait for main elements",
+    "expected": "Dashboard loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 10,
+    "title": "Dashboard responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 11,
+    "title": "Dashboard responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 12,
+    "title": "Dashboard responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 13,
+    "title": "Navigate to All Tasks and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks -> wait for main elements",
+    "expected": "All Tasks loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 14,
+    "title": "All Tasks responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 15,
+    "title": "All Tasks responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 16,
+    "title": "All Tasks responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 17,
+    "title": "Navigate to Task Detail and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/task/DETAIL -> wait for main elements",
+    "expected": "Task Detail loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 18,
+    "title": "Task Detail responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/task/DETAIL at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 19,
+    "title": "Task Detail responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/task/DETAIL at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 20,
+    "title": "Task Detail responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/task/DETAIL at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 21,
+    "title": "Navigate to Profile and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/profile -> wait for main elements",
+    "expected": "Profile loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 22,
+    "title": "Profile responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/profile at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 23,
+    "title": "Profile responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/profile at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 24,
+    "title": "Profile responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/profile at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 25,
+    "title": "Navigate to Notifications and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/notifications -> wait for main elements",
+    "expected": "Notifications loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 26,
+    "title": "Notifications responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/notifications at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 27,
+    "title": "Notifications responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/notifications at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 28,
+    "title": "Notifications responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/notifications at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 29,
+    "title": "Navigate to Reports and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/reports -> wait for main elements",
+    "expected": "Reports loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 30,
+    "title": "Reports responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/reports at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 31,
+    "title": "Reports responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/reports at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 32,
+    "title": "Reports responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/reports at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 33,
+    "title": "Navigate to Courses and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/courses -> wait for main elements",
+    "expected": "Courses loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 34,
+    "title": "Courses responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/courses at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 35,
+    "title": "Courses responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/courses at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 36,
+    "title": "Courses responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/courses at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 37,
+    "title": "Navigate to Admin Dashboard and verify UI elements",
+    "type": "E2E",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/admin -> wait for main elements",
+    "expected": "Admin Dashboard loads and key elements are visible",
+    "priority": "Medium"
+  },
+  {
+    "id": 38,
+    "title": "Admin Dashboard responsive layout on desktop",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/admin at desktop viewport -> inspect layout",
+    "expected": "Layout adapts correctly for desktop",
+    "priority": "Medium"
+  },
+  {
+    "id": 39,
+    "title": "Admin Dashboard responsive layout on tablet",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/admin at tablet viewport -> inspect layout",
+    "expected": "Layout adapts correctly for tablet",
+    "priority": "Medium"
+  },
+  {
+    "id": 40,
+    "title": "Admin Dashboard responsive layout on mobile",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/admin at mobile viewport -> inspect layout",
+    "expected": "Layout adapts correctly for mobile",
+    "priority": "Medium"
+  },
+  {
+    "id": 41,
+    "title": "Login form validation",
+    "type": "Validation",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/login -> submit invalid form data",
+    "expected": "Missing password shows error",
+    "priority": "High"
+  },
+  {
+    "id": 42,
+    "title": "Signup form validation",
+    "type": "Validation",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/signup -> submit invalid form data",
+    "expected": "Invalid email shows error",
+    "priority": "High"
+  },
+  {
+    "id": 43,
+    "title": "Create course validation",
+    "type": "Validation",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/courses/create -> submit invalid form data",
+    "expected": "Missing title shows error",
+    "priority": "High"
+  },
+  {
+    "id": 44,
+    "title": "Create Task via UI",
+    "type": "Functional",
+    "preconditions": "User account available",
+    "steps": "Login as user -> go to All Tasks -> perform Create Task",
+    "expected": "Create Task succeeds and UI updates accordingly",
+    "priority": "High"
+  },
+  {
+    "id": 45,
+    "title": "Edit Task via UI",
+    "type": "Functional",
+    "preconditions": "User account available",
+    "steps": "Login as user -> go to All Tasks -> perform Edit Task",
+    "expected": "Edit Task succeeds and UI updates accordingly",
+    "priority": "High"
+  },
+  {
+    "id": 46,
+    "title": "Delete Task via UI",
+    "type": "Functional",
+    "preconditions": "User account available",
+    "steps": "Login as user -> go to All Tasks -> perform Delete Task",
+    "expected": "Delete Task succeeds and UI updates accordingly",
+    "priority": "High"
+  },
+  {
+    "id": 47,
+    "title": "Assign Task via UI",
+    "type": "Functional",
+    "preconditions": "User account available",
+    "steps": "Login as user -> go to All Tasks -> perform Assign Task",
+    "expected": "Assign Task succeeds and UI updates accordingly",
+    "priority": "High"
+  },
+  {
+    "id": 48,
+    "title": "Complete Task via UI",
+    "type": "Functional",
+    "preconditions": "User account available",
+    "steps": "Login as user -> go to All Tasks -> perform Complete Task",
+    "expected": "Complete Task succeeds and UI updates accordingly",
+    "priority": "High"
+  },
+  {
+    "id": 49,
+    "title": "Course lifecycle case #1",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 50,
+    "title": "Course lifecycle case #2",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 51,
+    "title": "Course lifecycle case #3",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 52,
+    "title": "Course lifecycle case #4",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 53,
+    "title": "Course lifecycle case #5",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 54,
+    "title": "Course lifecycle case #6",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 55,
+    "title": "Course lifecycle case #7",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 56,
+    "title": "Course lifecycle case #8",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 57,
+    "title": "Course lifecycle case #9",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 58,
+    "title": "Course lifecycle case #10",
+    "type": "E2E",
+    "preconditions": "Admin and user accounts",
+    "steps": "Create course -> enroll user -> access course content -> unenroll",
+    "expected": "Course lifecycle operations succeed",
+    "priority": "Medium"
+  },
+  {
+    "id": 59,
+    "title": "Generate progress report",
+    "type": "Functional",
+    "preconditions": "Data present",
+    "steps": "Navigate to Reports -> apply filters -> export",
+    "expected": "Report generated and export available",
+    "priority": "Medium"
+  },
+  {
+    "id": 60,
+    "title": "Export report as CSV",
+    "type": "Functional",
+    "preconditions": "Data present",
+    "steps": "Navigate to Reports -> apply filters -> export",
+    "expected": "Report generated and export available",
+    "priority": "Medium"
+  },
+  {
+    "id": 61,
+    "title": "Filter report by date range",
+    "type": "Functional",
+    "preconditions": "Data present",
+    "steps": "Navigate to Reports -> apply filters -> export",
+    "expected": "Report generated and export available",
+    "priority": "Medium"
+  },
+  {
+    "id": 62,
+    "title": "Notification delivery scenario #1",
+    "type": "E2E",
+    "preconditions": "Notification service configured",
+    "steps": "Trigger notification -> observe delivery in UI",
+    "expected": "Notification appears in notifications list",
+    "priority": "Medium"
+  },
+  {
+    "id": 63,
+    "title": "Notification delivery scenario #2",
+    "type": "E2E",
+    "preconditions": "Notification service configured",
+    "steps": "Trigger notification -> observe delivery in UI",
+    "expected": "Notification appears in notifications list",
+    "priority": "Medium"
+  },
+  {
+    "id": 64,
+    "title": "Notification delivery scenario #3",
+    "type": "E2E",
+    "preconditions": "Notification service configured",
+    "steps": "Trigger notification -> observe delivery in UI",
+    "expected": "Notification appears in notifications list",
+    "priority": "Medium"
+  },
+  {
+    "id": 65,
+    "title": "Keyboard navigation works across main flows",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Run accessibility checks",
+    "expected": "Pass accessibility checks",
+    "priority": "Medium"
+  },
+  {
+    "id": 66,
+    "title": "Contrast meets WCAG AA for main pages",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Run accessibility checks",
+    "expected": "Pass accessibility checks",
+    "priority": "Medium"
+  },
+  {
+    "id": 67,
+    "title": "All images have alt text or labels",
+    "type": "UI/UX",
+    "preconditions": "App served locally",
+    "steps": "Run accessibility checks",
+    "expected": "Pass accessibility checks",
+    "priority": "Medium"
+  },
+  {
+    "id": 68,
+    "title": "Search functionality",
+    "type": "Functional",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard -> exercise feature",
+    "expected": "Search returns relevant results",
+    "priority": "Medium"
+  },
+  {
+    "id": 69,
+    "title": "Pagination",
+    "type": "Functional",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks -> exercise feature",
+    "expected": "Pagination works and preserves filters",
+    "priority": "Medium"
+  },
+  {
+    "id": 70,
+    "title": "Sorting",
+    "type": "Functional",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/tasks -> exercise feature",
+    "expected": "Sorting by date/name works",
+    "priority": "Medium"
+  },
+  {
+    "id": 71,
+    "title": "Offline behavior",
+    "type": "Functional",
+    "preconditions": "App served locally",
+    "steps": "Open BASE_URL/dashboard -> exercise feature",
+    "expected": "App shows offline indicator and caches data",
+    "priority": "Medium"
+  },
+  {
+    "id": 72,
+    "title": "General smoke case #72",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 73,
+    "title": "General smoke case #73",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 74,
+    "title": "General smoke case #74",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 75,
+    "title": "General smoke case #75",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 76,
+    "title": "General smoke case #76",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 77,
+    "title": "General smoke case #77",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 78,
+    "title": "General smoke case #78",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 79,
+    "title": "General smoke case #79",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 80,
+    "title": "General smoke case #80",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 81,
+    "title": "General smoke case #81",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 82,
+    "title": "General smoke case #82",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 83,
+    "title": "General smoke case #83",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 84,
+    "title": "General smoke case #84",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 85,
+    "title": "General smoke case #85",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 86,
+    "title": "General smoke case #86",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 87,
+    "title": "General smoke case #87",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 88,
+    "title": "General smoke case #88",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 89,
+    "title": "General smoke case #89",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 90,
+    "title": "General smoke case #90",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 91,
+    "title": "General smoke case #91",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 92,
+    "title": "General smoke case #92",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 93,
+    "title": "General smoke case #93",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 94,
+    "title": "General smoke case #94",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 95,
+    "title": "General smoke case #95",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 96,
+    "title": "General smoke case #96",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 97,
+    "title": "General smoke case #97",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 98,
+    "title": "General smoke case #98",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 99,
+    "title": "General smoke case #99",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 100,
+    "title": "General smoke case #100",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 101,
+    "title": "General smoke case #101",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 102,
+    "title": "General smoke case #102",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 103,
+    "title": "General smoke case #103",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 104,
+    "title": "General smoke case #104",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 105,
+    "title": "General smoke case #105",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 106,
+    "title": "General smoke case #106",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 107,
+    "title": "General smoke case #107",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 108,
+    "title": "General smoke case #108",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 109,
+    "title": "General smoke case #109",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 110,
+    "title": "General smoke case #110",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 111,
+    "title": "General smoke case #111",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 112,
+    "title": "General smoke case #112",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 113,
+    "title": "General smoke case #113",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 114,
+    "title": "General smoke case #114",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 115,
+    "title": "General smoke case #115",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 116,
+    "title": "General smoke case #116",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 117,
+    "title": "General smoke case #117",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 118,
+    "title": "General smoke case #118",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 119,
+    "title": "General smoke case #119",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 120,
+    "title": "General smoke case #120",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 121,
+    "title": "General smoke case #121",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 122,
+    "title": "General smoke case #122",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 123,
+    "title": "General smoke case #123",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 124,
+    "title": "General smoke case #124",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  },
+  {
+    "id": 125,
+    "title": "General smoke case #125",
+    "type": "Smoke",
+    "preconditions": "App served locally",
+    "steps": "Navigate through a key flow and verify no console errors",
+    "expected": "No errors and UI is responsive",
+    "priority": "Medium"
+  }
+]
